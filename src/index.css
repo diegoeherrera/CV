@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3{
+  margin:0px;
+}
+
+header{
+  display: flex;
+  flex-flow: column;
+  margin-top: 0px;
+  background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-120518.jpg);
+  background-attachment: fixed;
+  background-position: left, top;
+  width: 100%;
+  height: 100vh;
+  filter: grayscale(100%);
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#container{
+  width: 80%;
+  margin:0 auto;
+  
+  
+}
+
+#presentacion{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:0px;
+ background-color: #BFD9DA;
+  width: 100%;
+  height: 100vh;
+  
+  
+}
+#presentacion h2 {
+  text-align: center;
+}
+
+#presentacion img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  
+}
+
+.logos{
+  width: 180px;
+  height: 150px;
+  border-radius:50%;
+  margin-right: 30px;
+  border: 0.5px solid lightgrey;
+  padding:10px;
+}
+
+#megusta{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+ text-align: center;
+
+}
+#megusta h2 {
+  
+}
+
+#contacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #BFD9DA;
+  width: 100%;
+  height: 100vh;
+
+}
+
+#contacto h2{
+  color:white;
+  font-size: 30px;
+  padding-bottom: 30px;
+
+}
+
+
+.icon-contact{
+  margin-right: 50px;
+}
+
+.icon-contact:hover{
+  color:#BC4676;
+}
+
+i{
+  font-size: 30px;
+  color:green;
+}
+
+footer{
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background-color: darkslategrey;
+  text-align: center;
+}
